@@ -65,7 +65,7 @@ if __name__ == '__main__':
         print("Valorant not found")
         sleep(1)
 
-    ScreenRes.set(WIDTH, HEIGHT, HZ) # edit your res here (width,height,Hz)
+    ScreenRes.set(WIDTH, HEIGHT, HZ)
 
     sleep(3)
 
