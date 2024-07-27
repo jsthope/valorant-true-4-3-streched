@@ -6,10 +6,9 @@ HEIGHT = 1080
 HZ = 165
 ```
 # Usage
-1. Put the game in full screen windowed of your native screen resolution (probably 16:9).
-2. Restart the game.
-3. Put the game in windowed.
-4. Run ```python3 res.py``` in your cmd
+1. Put the game in full screen windowed of your native screen resolution (probably 16:9) (littlebox).
+2. Put the game in windowed (fill).
+3. Run ```python3 res.py``` in your cmd
  
 # Credit
 - https://stackoverflow.com/questions/20838201/resize-display-resolution-using-python-with-cross-platform-support
