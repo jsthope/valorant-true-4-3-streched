@@ -65,7 +65,7 @@ if __name__ == '__main__':
         print("Valorant not found")
         sleep(1)
 
-    ScreenRes.set(WIDTH, HEIGHT, HZ)
+    ScreenRes.set(WIDTH, HEIGHT, HZ) # edit your res here (width,height,Hz)
 
     sleep(3)
 
@@ -79,5 +79,3 @@ if __name__ == '__main__':
     ctypes.windll.user32.ShowWindow(window_handle, ctypes.c_int(3))  # SW_MAXIMIZE
 
     print("True stretched applied")
-
-    if input("cancel ? (press c):") == "c":ScreenRes.set() # Set default res
